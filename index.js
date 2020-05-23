@@ -1,25 +1,27 @@
 import { Dimensions, ImageStyle, StyleSheet, PixelRatio, TextStyle, ViewStyle } from "react-native";
+
 const { width, height } = Dimensions.get("window");
+
 const dimensions = width < height ? width : height;
 
-const guidelineBaseWidth = 350;
+const guidelineBaseWidth = 360;
+
 let shouldScale = true;
 
 export function scale(size: number) {
   return PixelRatio.roundToNearestPixel((dimensions / guidelineBaseWidth * size));
 }
 
-// export function shouldScale(shouldScaleSize: boolean) {
-//   shouldScale = shouldScaleSize;
-// }
-
 export default {
+
   ...StyleSheet,
 
   create(styles, disableScale = []) {
+
     const newStyles = {};
 
     for (const key in styles) {
+    
       let style: ViewStyle | TextStyle | ImageStyle = styles[key];
       newStyles[key] = { ...style };
 
@@ -31,10 +33,13 @@ export default {
           newStyles[key][property] = scale(value);
         }
       }
+
     }
 
     return StyleSheet.create(newStyles);
+
   },
 
   createNoscaled: StyleSheet.create
+  
 };
