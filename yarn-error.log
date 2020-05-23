@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/Cellar/node/11.1.0/bin/node /Users/jeffreymendez/.yarn/bin/yarn.js install
+
+PATH: 
+  /Users/jeffreymendez/.yarn/bin:/Users/jeffreymendez/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jeffreymendez/Desktop/mobileApps/autoscale/package.json: Unexpected token } in JSON at position 741
+      at JSON.parse (<anonymous>)
+      at /Users/jeffreymendez/.yarn/lib/cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (/Users/jeffreymendez/.yarn/lib/cli.js:304:30)
+      at /Users/jeffreymendez/.yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "react-native-auto-scale",
+    "version": "0.0.1",
+    "description": "React Native package that provides an automatic scaling StyleSheet",
+    "scripts": {
+      "build": "tsc",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "react-native",
+      "ios",
+      "android",
+      "stylesheet",
+      "scaling",
+      "auto-scale"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jeffreymendez1993/react-native-auto-scale.git"
+    },
+    "author": "Jeffrey Mendez <jeffmendez19@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jeffreymendez1993/react-native-auto-scale/issues"
+    },
+    "homepage": "https://github.com/jeffreymendez1993/react-native-auto-scale#readme",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

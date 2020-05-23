@@ -1,0 +1,54 @@
+{
+  "_args": [
+    [
+      "react-native-style-scale@0.1.2",
+      "/Users/leedev/Desktop/Storage/playjoker_reactnative"
+    ]
+  ],
+  "_from": "react-native-style-scale@0.1.2",
+  "_id": "react-native-style-scale@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-stSeGipnvLTXJlio9eb8MgUzo2lwxLPYQPClBjkDg2Vm+oHtO36q0nrUaSHQGhTfDn/yBxqkTqO37b/SrkDhgQ==",
+  "_location": "/react-native-style-scale",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-style-scale@0.1.2",
+    "name": "react-native-style-scale",
+    "escapedName": "react-native-style-scale",
+    "rawSpec": "0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "0.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-style-scale/-/react-native-style-scale-0.1.2.tgz",
+  "_spec": "0.1.2",
+  "_where": "/Users/leedev/Desktop/Storage/playjoker_reactnative",
+  "author": {
+    "name": "Jeffrey Mendez",
+    "email": "jeffmendez19@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffreymendez1993/react-native-style-scale/issues"
+  },
+  "description": "React Native package that provides an automatic scaling StyleSheet",
+  "homepage": "https://github.com/jeffreymendez1993/react-native-style-scale#readme",
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "stylesheet",
+    "scaling",
+    "auto-scale"
+  ],
+  "license": "MIT",
+  "name": "react-native-style-scale",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreymendez1993/react-native-style-scale.git"
+  },
+  "version": "0.1.2"
+}
