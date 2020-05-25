@@ -4,11 +4,11 @@ const { width, height } = Dimensions.get("window");
 
 const dimensions = width < height ? width : height;
 
-const guidelineBaseWidth = 360;
+// const guidelineBaseWidth = 400;
 
 let shouldScale = true;
 
-export function scale(size: number) {
+export function scale(size: number, guidelineBaseWidth: number) {
   return PixelRatio.roundToNearestPixel((dimensions / guidelineBaseWidth * size));
 }
 
@@ -16,7 +16,7 @@ export default {
 
   ...StyleSheet,
 
-  create(styles, disableScale = []) {
+  create(styles, guidelineBaseWidth, disableScale = []) {
 
     const newStyles = {};
 
@@ -30,7 +30,7 @@ export default {
         const name = String(newStyles[key][property]);
 
         if (typeof value === 'number' && !name.includes("flex") && !disableScale.includes(name) && shouldScale) {
-          newStyles[key][property] = scale(value);
+          newStyles[key][property] = scale(value, guidelineBaseWidth);
         }
       }
 
