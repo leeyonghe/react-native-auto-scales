@@ -4,7 +4,7 @@
 
 History
 - guidelineBaseWidth 350 -> 360 변경
-- guidelineBaseWidth를 입력값으로 변경 <br>
+- guidelineBaseWidth를 입력값으로 변경 <br><br>
 const styles = StyleSheet.create({ <br>
     container : { <br>
       flex:1, <br>
