@@ -5,6 +5,12 @@
 History
 - guidelineBaseWidth 350 -> 360 변경
 - guidelineBaseWidth를 입력값으로 변경 <br><br>
+
+- 선언<br>
+```
+import StyleSheet from 'react-native-auto-scales';
+```
+- 사용<br>
 ```
 const styles = StyleSheet.create({ 
     container : { 
