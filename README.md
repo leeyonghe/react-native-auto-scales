@@ -13,5 +13,3 @@ const styles = StyleSheet.create({ <br>
       paddingRight:30, <br>
     } <br>
 }, 380); <br><br>
-
-업데이트 진행중
