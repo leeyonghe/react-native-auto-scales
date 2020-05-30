@@ -5,11 +5,13 @@
 History
 - guidelineBaseWidth 350 -> 360 변경
 - guidelineBaseWidth를 입력값으로 변경 <br><br>
-const styles = StyleSheet.create({ <br>
-    container : { <br>
-      flex:1, <br>
-      backgroundColor:'#000000', <br>
-      paddingLeft:30, <br>
-      paddingRight:30, <br>
-    } <br>
-}, 380); <br><br>
+```
+const styles = StyleSheet.create({ 
+    container : { 
+      flex:1, 
+      backgroundColor:'#000000', 
+      paddingLeft:30, 
+      paddingRight:30, 
+    } 
+}, 380);
+```
